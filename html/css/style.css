@@ -1,0 +1,157 @@
+/**
+* Elements
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+/*
+* Menu
+*/
+.header {
+    width: 100%;
+    background-color: #000;
+    display: table;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu .menu-item {
+    float: left;
+}
+.menu .menu-item .menu-link {
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    padding: 20px 25px;
+    transition: background .3s ease-in-out;
+    font-family: 'Open Sans';
+}
+.menu .menu-item .menu-link:hover {
+    background: #fff;
+    color: #000;
+}
+
+/**
+* Search
+*/
+.search {
+    float: right;
+    margin-right: 20px;
+    margin-top: 14px;
+}
+
+.search-field {
+    padding: 10px 6px;
+    border-radius: 5px;
+    border: 0px;
+    width: 169px;
+    margin-right: 5px;
+}
+
+.search-button {
+    background: transparent;
+    color: #fff;
+    border: 0px;
+}
+
+/**
+* Content (Conteúdo)
+*/
+.content {
+    width: 80%;
+    margin:0 auto;
+    margin-top: 30px;
+    display: table;
+}
+
+/*
+* Posts
+*/
+.posts {
+    width: 60%;
+    float: left;
+}
+
+.posts .post {
+    text-align: left;
+    border-bottom: 1px solid #999;
+    margin-bottom: 15px;    
+    padding-bottom: 10px;
+}
+.posts .post .post-thumb {
+    width: 100%;
+}
+
+.posts .post .post-thumb,
+.posts .post .post-title,
+.posts .post .post-description {
+    margin-bottom: 15px;
+}
+
+.posts .post .post-title {
+    font-family: 'Open Sans';
+}
+.posts .post .post-description {
+    font-size: 16px;
+    line-height: 30px;
+    color: #999;
+}
+.posts .post .post-link {
+    
+}
+
+/**
+* Contact Form
+*/
+.form-group {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/**
+* Button
+*/
+.btn {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    background: #CCC;
+    color: #000;
+    font-size: 18px;
+    /* cursor: pointer */;
+}
+
+.btn-success {
+    border: 1px solid rgb(6, 105, 44);
+    background: rgb(138, 243, 178);
+}
+
+/*
+* Sidebar
+*/
+.sidebar {
+    width: 37%;
+    float: right;
+}
